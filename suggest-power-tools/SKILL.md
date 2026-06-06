@@ -5,7 +5,7 @@ description: Proactively spot moments in ordinary work where one of Claude Code'
 
 # Opportunity Scout
 
-Claude Code has force-multipliers the user cannot be expected to reach for, because they think in terms of their problem ("these weapons feel unbalanced", "ugh, waiting on CI again", "we keep making this mistake") - not in terms of orchestration, goals, loops, hooks, or skills. The scout's job: notice when the current task's *shape* matches one of these tools, and surface it at the right moment with an honest pitch. The user decides.
+Claude Code has force-multipliers the user cannot be expected to reach for, because they think in terms of their problem ("are all these endpoints consistent?", "ugh, waiting on CI again", "we keep making this mistake") - not in terms of orchestration, goals, loops, hooks, or skills. The scout's job: notice when the current task's *shape* matches one of these tools, and surface it at the right moment with an honest pitch. The user decides.
 
 ## Shared etiquette (applies to every scout)
 
@@ -22,7 +22,7 @@ When the current work matches a row, read that reference for the per-type recogn
 
 | Shape you're seeing | Scout | Reference |
 |---|---|---|
-| Same operation/question across many units; audit or balance passes; findings that need adversarial verification; whole-repo sweeps; "systematically", "across the board", "weed out" | Workflow | `references/workflow.md` |
+| Same operation/question across many units; audit or consistency passes; findings that need adversarial verification; whole-repo sweeps; "systematically", "across the board", "weed out" | Workflow | `references/workflow.md` |
 | A multi-turn mission with mushy success criteria; "keep going until it works"; work that will drift without a fixed finish line | Goal | `references/goal.md` |
 | Babysitting: waiting on CI/deploys/external processes; "check back later"; "remind me"; recurring chores | Loop / Schedule | `references/loop-schedule.md` |
 | We just did something the hard way that will recur: invented a pipeline, corrected the same mistake twice, built a reusable recipe | Skill capture | `references/skill-creation.md` |

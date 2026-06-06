@@ -4,8 +4,8 @@
 
 ## Recognition - task shapes that want a workflow
 
-1. **Breadth** - the same question or operation across many units: every weapon, every API endpoint, every landing page, every config file. One context reading 25 files serially does it shallowly; 6 parallel extractors with structured outputs do it properly.
-2. **Panel confidence** - judgments where independent lenses materially raise trust: audits, balance passes, code review, security sweeps, content critiques. A single reviewer anchors on their first read; a panel with distinct lenses plus a synthesis step does not.
+1. **Breadth** - the same question or operation across many units: every API endpoint, every landing page, every config file, every data model. One context reading 25 files serially does it shallowly; 6 parallel extractors with structured outputs do it properly.
+2. **Panel confidence** - judgments where independent lenses materially raise trust: audits, code review, security sweeps, content critiques. A single reviewer anchors on their first read; a panel with distinct lenses plus a synthesis step does not.
 3. **Adversarial verification** - findings that could be plausible-but-wrong: bug reports, claimed root causes, research claims, "safe to delete" lists. Skeptic agents prompted to refute kill the survivor bias.
 4. **Scale beyond one context** - migrations, renames across hundreds of call sites, whole-repo questions where context limits would force sampling instead of coverage.
 5. **Research sweeps** - multi-source, multi-angle questions where any single search modality misses what the others would catch.

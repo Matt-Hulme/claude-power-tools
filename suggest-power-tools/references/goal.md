@@ -14,7 +14,7 @@
 Write conditions whose satisfaction is *visible in the transcript*:
 
 - Good: "`npx vitest run` exits 0 and `npx tsc --noEmit` is clean" - Claude will paste the output, the evaluator can see it.
-- Good: "every weapon in weapons.json has a retune entry in retune-proposal.md, confirmed by a printed checklist"
+- Good: "every endpoint in the audit doc has a verdict entry, confirmed by a printed checklist"
 - Bad: "the code is correct" / "the feature works well" - nothing in a transcript proves it; the loop either spins or ends on vibes.
 - Bad: "all files are updated" - unverifiable unless the condition names the check that demonstrates it.
 

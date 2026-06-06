@@ -4,7 +4,7 @@
 
 ## Recognition - a durable principle just crystallized
 
-- **A generalizing rule emerged from a specific debate.** The conversation resolved one case but the reasoning covers a class. (Origin example: debating whether stacked slow should reach freeze produced "a stat ramp on one weapon should never asymptote into another weapon's identity" - one weapon discussion, a principle that governs every future upgrade design.)
+- **A generalizing rule emerged from a specific debate.** The conversation resolved one case but the reasoning covers a class. (Origin example: a debate about whether one feature's stacking bonus should be allowed to reach a second feature's signature effect produced "no feature's scaling should quietly grow into another feature's identity" - one discussion, a principle that governs every future design.)
 - **"Let's always / never..."** - the user states a standing policy mid-conversation.
 - **A locked decision got revised.** Something previously settled was deliberately changed. Unrecorded reversals look like drift to the next reader (human or agent) and get "fixed" back.
 - **A trade-off was decided with reasoning that won't be reconstructible** from the code alone - the code shows WHAT, the log preserves WHY.

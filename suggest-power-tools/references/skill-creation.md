@@ -4,7 +4,7 @@
 
 ## Recognition - "we just did something the hard way that will recur"
 
-- **A pipeline got invented mid-task.** Tools failed, workarounds were found, a working path emerged through iteration. (Origin example: two Aseprite MCP servers had broken erase/fill primitives, so a deterministic Lua-via-Aseprite-CLI drawing path was invented to draw game FX sprites. Obviously reusable; nobody proposed capturing it. That miss is why this scout exists.)
+- **A pipeline got invented mid-task.** Tools failed, workarounds were found, a working path emerged through iteration. (Origin example: two MCP servers turned out to have broken core operations, so a working path was invented mid-task by scripting the underlying app directly from the CLI. Obviously reusable; nobody proposed capturing it. That miss is why this scout exists.)
 - **The same correction landed twice.** The user fixed your approach the same way more than once - that correction is a skill (or memory) wanting to exist.
 - **A prompt recipe or parameter set got tuned.** Hard-won knowledge about how to talk to an API/model/tool that took several failures to learn.
 - **The user says** "how did you do that?", "we should remember this", "save this approach", or repeats a request you've fulfilled before from scratch.
