@@ -4,6 +4,8 @@ Skills that make Claude Code proactively smarter about its own capabilities.
 
 Claude Code ships with serious force-multipliers - multi-agent workflows, session goals, recurring loops, hooks, custom skills - but you have to know to ask for them. These skills flip that: **Claude notices when your task fits one of its power tools and proposes it**, with a concrete sketch and an honest cost, and you decide.
 
+Using OpenAI Codex instead? The same scout, retargeted at Codex's native tool set (subagent fan-out, goals, automations, lifecycle hooks), lives at [codex-power-tools](https://github.com/Matt-Hulme/codex-power-tools).
+
 ## Skills
 
 ### [`suggest-power-tools`](suggest-power-tools/)
