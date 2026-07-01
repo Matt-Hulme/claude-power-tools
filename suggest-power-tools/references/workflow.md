@@ -26,7 +26,7 @@ One compact block, inline:
 > This is a strong Workflow fit - [which shape(s) and why]. Pipeline: **[Phase 1]** (N agents: what) → **[Phase 2]** (...) → **[Phase 3]** (...). Output: [the durable artifact]. Cost: roughly [N agents, light / moderate / heavy token spend]. Want me to launch it?
 
 - **Name the durable artifact.** A rerunnable tool (report script, harness, checker) beats prose. If a "this conversation never has to happen again" artifact is available, build the pipeline around it.
-- **Keep the human the decision-maker inside the pipeline too**: audit/retune/migration workflows end in a proposal doc or flagged-decisions list, not auto-applied changes. Say which decisions stay with the user.
+- **Keep the human the decision-maker inside the pipeline too**: audit/refactor/migration workflows end in a proposal doc or flagged-decisions list, not auto-applied changes. Say which decisions stay with the user.
 
 ## Worked example
 
