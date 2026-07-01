@@ -25,7 +25,7 @@ The opportunity spotter. While you work on ordinary tasks, it watches for eight 
 
 Core etiquette baked in: one proposal per opportunity, never stacks proposals, never treats enthusiasm as approval, drops it without ceremony if you decline.
 
-Born from a real session: a "how do we systematically balance these 20 weapons?" conversation became a 12-agent workflow that produced a rerunnable balance harness and a numbers-grounded retune proposal - a thing the user said they would never have thought to ask for.
+The payoff shape: a "how do we systematically audit these 25 endpoints?" aside becomes a multi-agent workflow that produces a rerunnable consistency checker and a grounded drift report - a durable tool you'd never have thought to ask for.
 
 ## Install
 

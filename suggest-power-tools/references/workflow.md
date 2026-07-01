@@ -28,12 +28,12 @@ One compact block, inline:
 - **Name the durable artifact.** A rerunnable tool (report script, harness, checker) beats prose. If a "this conversation never has to happen again" artifact is available, build the pipeline around it.
 - **Keep the human the decision-maker inside the pipeline too**: audit/retune/migration workflows end in a proposal doc or flagged-decisions list, not auto-applied changes. Say which decisions stay with the user.
 
-## Worked example (origin case)
+## Worked example
 
-User, mid-game-balancing: *"How can we systematically approach nerfing and balancing the weapons... all upgrade choices are not equal... how do we weed these imbalances out?"*
+User, mid-refactor: *"Are all our API endpoints consistent - same auth guard, same input validation, same error shape? How do we find every place that drifted?"*
 
-Shape: breadth (~20 weapon files) + deterministic-harness opportunity + judge panel + meta decisions that must stay human-owned.
+Shape: breadth (~25 endpoint handlers) + deterministic-checker opportunity + judge panel + fixes that must stay human-owned.
 
-Proposal: **Extract** (6 parallel readers → structured value-formula specs from code) → **Build** (zero-dep balance harness, `npm run balance:report`, rerunnable forever) → **Verify** (adversarial agent hand-derives 4 weapons' math, fails the harness on drift) → **Audit** (3 judge lenses: cross-stat inversions, degenerate strategies, identity collisions) → **Synthesize** (retune proposal doc; caps philosophy flagged as a user decision).
+Proposal: **Extract** (6 parallel readers → structured per-endpoint specs: auth guard, validation, error envelope, pulled from code) → **Build** (zero-dep consistency checker, `npm run api:lint`, rerunnable forever) → **Verify** (adversarial agent hand-checks 4 endpoints, fails the checker on any drift) → **Audit** (3 judge lenses: missing auth, unvalidated input, inconsistent error shapes) → **Synthesize** (drift report; each proposed fix flagged as a user decision).
 
-Why it worked: a permanent balance tool plus a numbers-grounded proposal, every config change stayed the user's call - and the user said they wouldn't have anticipated asking for it. That's the scout's whole reason to exist.
+Why it works: a permanent consistency checker plus a grounded report, every code change stays the user's call - and the user gets a durable tool they wouldn't have thought to ask for. That's the scout's whole reason to exist.
